@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>{{ randomNumber }}</span>
+    <span class="number">{{ randomNumber }}</span>
     <button @click="getRandomNumber">Generate Random Number</button>
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
     },
   },
   methods: {
-    getRandomNuber() {
+    getRandomNumber() {
       this.randomNumber = Math.floor(Math.random() * (this.max - this.min + 1)) + this.min
     },
   },
