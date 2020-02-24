@@ -1,6 +1,7 @@
 # vue-unit-testing
 
 This repo is meant to be used as a reference for a bug report on @vue/test-utils.
+Updated with RandomNunber generator, which has currently only simple failing tests in order to illustrate that npm throws errors on failing tests.
 
 ## Project setup
 ```
