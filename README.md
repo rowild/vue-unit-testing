@@ -1,5 +1,7 @@
 # vue-unit-testing
 
+This repo is meant to be used as a reference for a bug report on @vue/test-utils.
+
 ## Project setup
 ```
 npm install
